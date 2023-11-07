@@ -18,7 +18,7 @@ public class LogicaJogo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        // alteracao de exemplo
         cenaGameOver.SetActive(false);
         nomeJogador1.text = "" + PlayerPrefs.GetString("nomeJogador1");
         nomeJogador2.text = "" + PlayerPrefs.GetString("nomeJogador2");
